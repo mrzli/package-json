@@ -94,4 +94,5 @@ export interface PackageJsonEnginesStrict {
   readonly yarn?: string;
 }
 
-export type PackageJsonEngines = PackageJsonEnginesStrict & ReadonlyRecord<string>;
+export type PackageJsonEngines = PackageJsonEnginesStrict &
+  ReadonlyRecord<string>;
