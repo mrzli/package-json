@@ -4,6 +4,13 @@ All notable changes to the "package-json" will be documented in this file.
 
 ## [Unreleased]
 
+## [0.0.2] - 2023-09-30
+
+### Changed
+
+- Update packages to latest versions.
+- Update development tooling.
+
 ## [0.0.1] - 2023-05-12
 
 ### Added

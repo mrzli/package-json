@@ -3,9 +3,9 @@ import { readTextAsync } from '@gmjs/fs-async';
 import { PackageJson } from './package-json';
 
 export async function readPackageJsonAsync(
-  packageJsonDirectory: string
+  packageJsonDirectory: string,
 ): Promise<PackageJson> {
   return JSON.parse(
-    await readTextAsync(join(packageJsonDirectory, 'package.json'))
+    await readTextAsync(join(packageJsonDirectory, 'package.json')),
   );
 }
