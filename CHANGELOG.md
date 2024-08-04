@@ -12,6 +12,10 @@ All notable changes to the "package-json" will be documented in this file.
 - Update npm scripts.
 - Update packages to latest versions.
 
+### Removed
+
+- Remove functions for reading `package.json` (they are trivial to construct at call site).
+
 ## [0.0.2] - 2023-09-30
 
 ### Changed

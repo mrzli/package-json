@@ -1,7 +1,7 @@
 {
   "name": "@gmjs/package-json",
   "version": "0.0.2",
-  "description": "Utilities for reading package json.",
+  "description": "Package json types.",
   "author": {
     "name": "Goran Mržljak",
     "email": "goran.mrzljak@gmail.com",
@@ -30,8 +30,6 @@
     "pub+": "pnpm run pac+ && pnpm run pub"
   },
   "dependencies": {
-    "@gmjs/fs-async": "^0.0.5",
-    "@gmjs/fs-sync": "^0.0.3",
     "tslib": "^2.6.3"
   },
   "devDependencies": {
